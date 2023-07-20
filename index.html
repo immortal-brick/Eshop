@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css' rel='stylesheet'>
+    <title>Eshop</title>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+    <!--black notificatioon box--> 
+
+
+    <!--Navbar-->
+    <section class="wraper fixed-top">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary"><!--bg-body-tertiary instead of bg-wh-->
+        <div class="container"><!--container-fluid innstead of container-->
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">HOME</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  CATEGORIES
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">DRESSES</a></li>
+                  <li><a class="dropdown-item" href="#">CO-ORDS</a></li>
+                  <li><a class="dropdown-item" href="#">BODYSUITS</a></li>
+                  <li><a class="dropdown-item" href="#">CROP-TOPS</a></li>
+                  <li><a class="dropdown-item" href="#">SKIRTS</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">CONTACT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reviews">REVIEWS</a>
+              </li>
+            </ul>
+
+            <a class="navbar-brand" href="#">
+              <img src="./images/LOGO111png.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top instead of class img fluid"> <!---->
+              OUTCAST
+            </a>
+
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><span class="navicon"><i class='bx bxs-heart'></i></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><span class="navicon"><i class='bx bxs-cart-alt'></i></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./login.html"><span class="navicon"><i class='bx bxs-group' ></i></span></a>
+              </li>
+
+               
+            </ul>
+
+            <form class="d-flex" role="search">
+              <input class="form-control mes-2" type="search" placeholder="search our store" aria-label="Search" id = "search">
+              <button id = "srchbtn" class="btn btn-outline-secondary" type="submit">Search</button>
+            </form>
+            
+          </div>
+        </div>
+      </nav>
+      <div class="containers ">
+        <div class="slider">
+          <span class="text">HASSEL FREE RETURNS & PICK-UP</span>
+        </div>
+      </div>
+    </section>
+     <section id ="home" class="home pt-5 overflow-hidden">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="./images/banners/banner2  4_a9373d54-a08a-4fc7-a08a-37e0c42cc68d_1944x.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="./images/banners/banner 3  4_3bef83ba-2aab-4cc7-9bd3-390922e6dda0_1944x.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="./images/banners/banner1websiteLUNAR_1944x.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+     </section>
+
+
+     <!--PRODUCT SECTION-->
+    <div class="product-sec text-center">
+      <h1>TOP SELLING</h1>
+      <button class="view-btn" name= "button" type="button">View all</button>
+
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./images/pro1 - Copy.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class=" card-text "><i class='bx bx-rupee'></i>2100/-</p>
+              
+              
+            </div>
+           
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./images/pro2 - Copy.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text"><i class='bx bx-rupee'></i>2100/-</p>
+              
+            </div>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./images/pro4 - Copy.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="price card-text"><i class='bx bx-rupee'></i>2100/</p>
+             
+            </div>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./images/pro5 - Copy.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <p class="card-text"><i class='bx bx-rupee'></i>2100/-</p>
+            
+            </div>
+           
+          </div>
+        </div>
+>
+
+
+      </div>
+    </div>
+    <!--CONTACT US-->
+
+
+    <section class="contact-us ">
+      <div class="container mt-5">
+        <h1 class="mb-4 text-center">CONTACT US</h1>
+        <form>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="inputName" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="inputName" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputEmail" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" required>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="inputSubject" class="form-label">Subject</label>
+                <input type="text" class="form-control" id="inputSubject" required>
+            </div>
+            <div class="mb-3">
+                <label for="inputMessage" class="form-label">Message</label>
+                <textarea class="form-control" id="inputMessage" rows="4" required></textarea>
+            </div>
+            <button class="view-btn" name= "button" type="button">Submit</button>
+        </form>
+    </div>
+    </section>
+
+    <!--Footer-->
+    <section class="footer">
+      <!--<div class="newsletter">
+        <h8>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</h4><br>
+        <label for="email" class="">Enter your email:</label>
+        <input type="email" id="email" name="email">
+        <button class = "my-button" type="button">Subscribe</button>
+      </div>-->
+
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 bg-dark">
+            
+            <div class="card-body ">
+              <div class="newcontain">
+                <form action="">
+                  <h5 class="card-title">JOIN OUR NEWSLETTER</h5>
+                  <p class="card-text">Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>
+                  <div class="email-box"><i class='bx bxs-envelope'></i>
+                    <input class = "tbox" type="email" id="email" name="email" placeholder="Enter your email">
+                    <button class = "my-button" name= "button" type="button">Subscribe</button>
+                  </div>
+                </form>
+                <div class="social-media">
+                  <a href=""><i class='bx bxl-instagram-alt' ></i></a>
+                  <a href=""><i class='bx bxl-facebook-square' ></i></a>
+                  <a href=""><i class='bx bxl-twitter' ></i></a>
+                  <a href=""><i class='bx bxl-pinterest' ></i></a>
+
+                </div>
+              </div>
+           </div>
+           
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 bg-dark ">
+            
+            <div class="card-body">
+              <div class="address text-center">
+                <p class="card-text"><i class='bx bxs-map'></i>OUTCAST, E-207,Sector-63 Noida,Uttar pradesh-201301</p>
+              
+                <p class="card-text"><i class='bx bx-envelope' ></i>support@outcast.in</p>
+               
+                <p class="card-text"><i class='bx bxs-phone' ></i>01204316137</p>
+
+                <p class="card-text">&copy; 2023 OUTCAST All Rights Reserved.</p>
+              </div>
+              
+              </div>
+              
+            
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card h-100 bg-dark ">
+            
+            <div class="card-body">
+              <div class="policy text-center"></div>
+              
+              <ul id = "policy-ul" class="text-center">
+                <li class="policy-li">Return & Refund Policy</li>
+                <li class="policy-li">Track Your Order</li>
+                <li class="policy-li">Terms of Service</li>
+                <li class="policy-li">About Us</li>
+                <li class="policy-li">Privacy Policy</li>
+              </ul>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+
+    </section>
+    
+      
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
